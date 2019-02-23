@@ -1,0 +1,16 @@
+//main: ../app.scss
+
+// Bitter
+@include  font-face ( "Bitter" , "/fonts/Bitter/Bitter-Bold", null, null, ttf);
+@include  font-face ( "Bitter-Ialic" , "/fonts/Bitter/Bitter-Italic", null, null, ttf);
+@include  font-face ( "Bitter-Regular" , "/fonts/Bitter/Bitter-Regular", null, null, ttf);
+
+// Lobster
+@include  font-face ( "Lobster-Regular" , "/fonts/Lobster/Lobster-Regular", null, null, ttf);
+
+// Lora
+@include  font-face ( "Lora-Bold" , "/fonts/Lora/Lora-Bold", null, null, ttf);
+@include  font-face ( "Lora-BoldItalic" , "/fonts/Lora/Lora-BoldItalic", null, null, ttf);
+@include  font-face ( "Lora-Italic" , "/fonts/Lora/Lora-Italic", null, null, ttf);
+@include  font-face ( "Lora-Regular" , "/fonts/Lora/Lora-Regular", null, null, ttf);
+

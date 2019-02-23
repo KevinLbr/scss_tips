@@ -1,0 +1,12 @@
+$theme-colors: map-merge(
+    (
+        "grey-epost":  $grey-epost,
+        "grey2-epost": $grey2-epost,
+        "grey3-epost": $grey3-epost,
+        "green-epost": $green-epost,
+    ),$theme-colors
+);
+
+@each $color, $value in $theme-colors {
+   @include text-emphasis-variant(".text-#{$color}", $value);
+}
